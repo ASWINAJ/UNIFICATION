@@ -64,6 +64,13 @@ public class MyFirstClass {
 		String[] y =spliti(q);
 		
 		String res="";
+
+		if(!(x[0].equals(y[0])))
+			{
+			res=res+"FAIL";
+				
+				}
+		
 		
 		
 		if(x.length != y.length)
